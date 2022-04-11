@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{%block content%}
+<title>Hub</title>
+{% if user.is_authenticated %}
+<h4 class="text-center">Hi {{user.username}}!</h4>
+{%else%}
+<p>Get Started Now!</p>
+{%endif%}
+{%endblock content%}

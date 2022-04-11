@@ -1,0 +1,30 @@
+body {
+    background-color: #1f1f2c;
+    color: #fff;
+    font-family: 'Lato';
+}
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.container-login {
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+.container-signup {
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+.login-button {
+    background-color: #96b5e6;
+    font-weight: bold;
+}
+.signup-button {
+    background-color: #96b5e6;
+    font-weight: bold;
+}
